@@ -71,7 +71,7 @@ form{
 .bttn{
     text-decoration: none;
     color: whitesmoke;
-    border: none;
+    border: 1px solid lightgray;
     transition: all 1s ease-in-out;
     padding: 8px;
     border-radius: 15px;
@@ -96,6 +96,7 @@ h4::before{
 .bttn:hover{
     background-color: aqua;
     color: purple;
+    border: 1px solid lightgray;
 }
 .inp-elem{
     width: 380px;
@@ -163,7 +164,7 @@ input::placeholder{
     width: 85px;
     background: purple;
     color: whitesmoke;
-    border: none;
+    border: 1px solid lightgray;
     padding: 3px;
     border-radius: 20px;
     transition: all 1s;
@@ -171,5 +172,6 @@ input::placeholder{
 .s-r:hover{
     background-color: aqua;
     color: purple;
+    border: 1px solid lightgray;
 }
 
