@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Success | InfinEight</title>
+    <link rel="icon" href="Images/logo-wbg.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(white, lightpink);
+        }
+        .main-cont{
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+        }
+        .cont{
+            margin: 0 auto;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.4);
+            width: 65%;
+            height: 60%;
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        img{
+            width: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        hr{
+            margin: 5vh auto;
+            width: 25%;
+            height: 10px;
+            background-color: orange;
+            border: none;
+            border-radius: 30px;
+            animation-name: enlarge;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+        button{
+            width: 110px;
+            margin: 5px auto;
+            background-color: purple;
+            border: none;
+            height: 40px;
+            color: whitesmoke;
+            border-radius: 25px;
+            padding: 5px;
+            transition: all 1s;
+        }
+        button:hover{
+            background-color: violet;
+        }
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        @keyframes enlarge{
+            from{
+                width: 0;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main-cont">
+        <hr class="top">
+        <div class="cont">
+            <img src="Images/logo.png" alt="">
+            <h3>Thanks for your Support on InfinEight</h3>
+            <h2>Your Contact Form Submitted Successfully !!</h2>
+            <h3>You will Receive Your Reply Soon...</h3>
+        </div>
+        <hr>
+        <button><a href="index.html">Continue</a></button>
+    </div>
+</body>
+</html>

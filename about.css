@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(white, lightpink);
+    width: 100vw;
+    height: 100vh;
+}
+
+header .row{
+    margin-top: 80px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.ico:hover{
+    color: whitesmoke;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    transition: all 0.5s;
+}
+
+.col-2{
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+}
+.text-cont{
+    grid-column: span 2;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.image-cont{
+    display: flex;
+    justify-content: center;
+}
+.row-cont{
+    margin-top: 1rem;
+}
+.next{
+    margin-top: 4rem;
+}
+.text-cont h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0.4rem;
+    font-weight: 600;
+    position: relative;
+}
+.text-cont a{
+    text-align: center;
+    background-color: orange;
+    width: 6rem;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin: 1rem auto;
+    transition: all 1s;
+}
+.text-cont a:hover{
+    background-color: aqua;
+    color: purple;
+}
+h2::after{
+    content: '';
+    position: absolute;
+    width: 5rem;
+    height: 0.4rem;
+    background-color: orange;
+    left: 21rem;
+    top: 3.6rem;
+    border-radius: 0.6rem;
+    animation: enlarge 1.5s ease-in-out 0s 1 normal ;
+}
+.last::after{
+    content: '';
+    position: absolute;
+    width: 5rem;
+    height: 0.4rem;
+    background-color: orange;
+    left: 11.5rem;
+    top: 3.6rem;
+    border-radius: 0.6rem;
+    animation: enlarge 1.5s ease-in-out 0s 1 normal ;
+}
+@keyframes enlarge{
+    from{
+        width: 0;
+        background-color: purple;
+    }
+}
+.text-cont p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #24262b;
+}
+
+/* Footer */
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer-col ul{
+    list-style: none;
+}
+footer{
+    margin-top: 80px;
+    background-color: #24262b;
+    padding: 70px 0;
+    border-radius: 50px 50px 0 0;
+    border: 2px solid lightgray;
+}
+.f-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: orange;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: #bbbbbb;
+    font-weight: 300;
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+}
+.footer-col .social-links .insta:hover{
+    background-color: violet;
+}
+.footer-col .social-links .facebook:hover{
+    background-color: blue;
+}
+.footer-col .social-links .youtube:hover{
+    background-color: red;
+}
+.footer-col .social-links .linkedin:hover{
+    background-color: skyblue;
+}
