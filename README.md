@@ -30,7 +30,7 @@ This project was created to:
 
 ## 📷 Screenshots
 
-> (You can add screenshots of your website here using `![Alt Text](image_path)`)
+> [Home Page]([image_path](https://imagekit.io/public/share/kcg4ug3aj/ce1d42d668cd1e8e89140937f2012816684e128d048c4705a22c7af7116148b86bf8e53dc8fce086a826315b49d36800d7046f5056ab93dad50b24a6eba319f4a98ae46fcd2a7493454ec37210616ca9))
 
 ## 🔗 Related Links
 
